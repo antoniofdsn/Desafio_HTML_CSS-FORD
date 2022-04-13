@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Atendimento</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Yantramanav&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/icons/favicon.ico" />
+</head>
+
+<body>
+    <iframe src="header.html" class="iframe-header"></iframe>
+
+    <main>
+        <div class="contato">
+            <img class="contato-banner" src="src/img/xls 2.2 diesel.jpg" alt="Ford Ranger"/>
+
+            <form>
+                <legend>Fale Conosco</legend>
+                <input type="text" id="username" class="input-form" placeholder="NOME" required />
+
+                <input type="email" id="email" class="input-form" placeholder="E-MAIL" required />
+
+                <input type="tel" id="telefone" class="input-form" placeholder="TELEFONE" required />
+
+                <textarea cols="60" rows="10" id="mensagem" class="input-form" placeholder="DIGITE AQUI SUA MENSAGEM"
+                    required></textarea>
+
+
+                <select class="select-form" required>
+                    <option value="" disabled selected hidden>MOTIVO DO CONTATO</option>
+                    <option>ELOGIO</option>
+                    <option>RECLAMAÇÃO</option>
+                    <option>SOLICITAÇÃO</option>
+                </select>
+
+
+                <input type="submit" value="Enviar" class="enviar" />
+            </form>
+        </div>
+    </main>
+
+    <iframe src="footer.html" class="iframe-footer"></iframe>
+</body>
+
+</html>
